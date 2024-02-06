@@ -1,0 +1,162 @@
+body{
+    background: #f0f2f5;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.logo{
+    height: 106px;
+    margin: -28px;
+}
+
+.helloHeading{
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.leftblock{
+    width: 500px;
+    padding-bottom: 70px;
+}
+
+.login{
+    float: right;
+}
+
+.inputform{
+    width: 396px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+}
+
+input{
+    margin: 6px 0px;
+}
+
+.inputtext{
+    width: 330px;
+    height: 22px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    opacity: 75%;
+    padding: 14px 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.newaccdiv{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.newacc{
+    border-radius: 9px;
+    font-size: 17px;
+    line-height: 48px;
+    background-color: #42b72a;
+    color: #ffffff;
+    padding: 0 16px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    display: table;
+    font-weight: bold;
+}
+
+.forgetdiv{
+    margin-top: 16px;
+}
+
+.forgetpass{
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.forgetpass:hover, .regformlink:hover{
+    text-decoration: underline;
+}
+
+.letmein{
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    height: 48px;
+    width: 364px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.regform{
+    width: 396px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.regformlink{
+    font-weight: bold;
+    color: #000000;
+}
+
+.hr{
+    border-top: 1px solid #dadde1;
+    margin: 20px 16px;
+}
+
+.footer{
+    background-color: #ffffff;
+    margin-top: 183px;
+    padding-top: 26px;
+    padding-bottom: 9px;
+    width: 100%;
+}
+
+.footerin{
+    padding-left: 270px;
+}
+
+.changelang{
+    color: #8a8d91;
+    font-size: 12px;
+    margin: 0 3px;
+}
+
+.changelang:hover{
+    text-decoration: underline;
+}
+
+span.changelang{
+    color: #737373;
+}
+
+.langbutton{
+    font-size: 18px;
+    font-weight: bold;
+    color: #6A7180;
+    background-color: #EBEDF0;
+    border: solid rgb(206, 206, 206) 1px;
+    border-radius: 2px;
+    padding: 0 8px;
+}
+
+.langbutton:hover{
+    text-decoration: none;
+}
