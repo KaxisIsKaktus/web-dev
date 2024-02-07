@@ -1,0 +1,174 @@
+body{
+    background: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    /*margin: 0;
+    padding: 0;*/
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.mainimage{
+    height: 600px;
+    margin-top: -40px;
+}
+
+.leftside{
+    height: 500px;
+
+}
+
+.instlogo{
+    width: 174px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logindiv{
+    width: 350px;
+    height: 400px;
+    border: solid #DBDBDB 1px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+.fblogo{
+    height: 16px;
+    margin-right: 5px;
+}
+
+.fblogin{
+    color: #385185;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.forgetpass{
+    color: #00376B;
+}
+
+.forgetpassdiv{
+    margin-top: 20px;
+}
+
+.rega{
+    width: 350px;
+    height: 62px;
+    border: solid #DBDBDB 1px;
+    border-radius: 1px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.logside a{
+    text-decoration: none;
+}
+
+.rega2{
+    margin-top: 22px;
+}
+
+.googleplay, .microsoft {
+    height: 40px;
+    margin: 0 3px;
+}
+
+.download{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download span{
+    font-size: 14px;
+}
+
+.downloadtxt{
+    margin-bottom: 15px;
+}
+
+.noacc{
+    font-size: 13px;
+}
+
+.regist{
+    font-size: 13px;
+    color:#0095F6;
+    font-weight: bold;
+}
+
+#inputtext{
+    width: 260px;
+    height: 18px;
+    padding: 9px 0px 10px 8px;
+    font-size: 12px;
+    margin: 5px 5px;
+    background-color: #FAFAFA;
+    border: solid #DBDBDB 1px;
+    border-radius: 2px;
+}
+
+.login{
+    border-radius: 8px;
+    background-color: #0095F6;
+    color: #ffffff;
+    border: 0px;
+    font-size: 14px;
+    padding: 7px 16px;
+    opacity: 0.7;
+    width: 270px;
+    margin: 10px 40px;
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+
+.or span{
+    font-size: 15px;
+    margin: 0 5px;
+    color: #737373;
+}
+
+.line{
+    border-top: solid #ECECEC 1px;
+    width: 100px;
+    margin: 0 10px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.bottomlinks{
+    color: #737373;
+    text-decoration: none;
+    margin: 0 6px;
+}
+
+.footer2{
+    margin-top: 20px;
+}
+
+.footer2 span{
+    color: #737373;
+    margin: 0 10px;
+}
+
+.logside{
+    margin-left: -50px;
+    margin-top: 40px;
+}
+
+.fb{
+    margin-top: 30px;
+}
