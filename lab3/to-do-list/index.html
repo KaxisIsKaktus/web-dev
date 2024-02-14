@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            ToDo List
+        </div>
+    </header>
+    <main>
+        <div id="todo-container">
+            <p class="left-align">ToDo List</p>
+        </div>
+        <div id="add-container">
+            <input id="type-input" type="text" placeholder="New Task">
+            <button type="submit">Add</button>
+        </div>
+        <div class="task_container">
+            <table class="item-list">
+                <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Fisrt item</td>
+                    <td>
+                        <a href="javascript:void(0);" onclick="deleteItem(this)">
+                            <img src="trashCan.webp" alt="Delete item" class="delete-icon">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Second item</td>
+                    <td>
+                        <a href="javascript:void(0);" onclick="deleteItem(this)" >
+                            <img src="trashCan.webp" alt="Delete item" class="delete-icon">
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

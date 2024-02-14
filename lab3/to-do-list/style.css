@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    color: #a39a98;
+    font-size: 28px;
+}
+#header-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+#todo-container {
+    max-width: 780px;
+    margin: 0 auto;
+}
+#add-container {
+    max-width: 610px;
+    margin:0 auto;
+}
+
+.left-align {
+    text-align: left;
+}
+
+p {
+    font-size: 45px;
+}
+
+td.completed {
+    text-decoration: line-through;
+}
+
+#type-input {
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    width: 450px;
+    font-size: 16px;
+}
+
+.task_container {
+    max-width: 780px;
+    margin: 0 auto;
+}
+.item-list {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #ccc;
+    font-family: Helvetica, sans-serif;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+button {
+    background-color: #0073b7;
+    color: #fff;
+    border: 1px solid #0073b7;
+    border-radius: 6px;
+    padding: 0 13px;
+    font-size: 16px;
+    margin-left: 25px;
+    height: 42px;
+}
+
+.item-list td {
+    height: 35px;
+    width: 780px;
+    text-align: left;
+    padding: 20px 20px 10px 10px ;
+    align-items: center;
+}
+
+.item-list tr {
+    border-bottom: 2px solid #ccc;
+}
+
+.item-list input[type="checkbox"] {
+    margin-left : 20px;
+    margin-top: 25px;
+    width: 20px;
+    height: 20px;
+    accent-color: #1877f2;
+}
+img {
+    float: right;
+    width:26px;
+    align-content: flex-end;
+}
