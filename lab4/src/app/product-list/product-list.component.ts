@@ -1,20 +1,23 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
-import { products } from '../products';
+import { products, Product } from "../products";
 
 @Component({
-  selector: 'app-product-list',
-  templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  selector: "app-product-list",
+  templateUrl: "./product-list.component.html",
+  styleUrls: ["./product-list.component.css"],
 })
 export class ProductListComponent {
   products = [...products];
 
-  share() {
-    window.alert('The product has been shared!');
+  share(product: Product): void {
+    const shareLink = product.link;
+    const shareMessage = `Check out this product: ${shareLink}`;
+    const encodedMessage = encodeURIComponent(shareMessage);
+    const telegramLink = `https://t.me/share/url?url=${shareLink}&text=${encodedMessage}`;
+    window.open(telegramLink, "_blank");
   }
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
