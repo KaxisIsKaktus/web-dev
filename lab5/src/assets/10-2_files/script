@@ -1,0 +1,22 @@
+window.currentCodesArray = [];
+
+  currentCodesArray.push("fix-product-slider")
+
+  try {
+    (function(params) {
+    !function(e,l){if("object"==typeof exports&&"object"==typeof module)module.exports=l();else if("function"==typeof define&&define.amd)define([],l);else{var n=l();for(var t in n)("object"==typeof exports?exports:e)[t]=n[t]}}(window,(()=>(window["64acf4bc65856d51348c24f7"]=function(e){window.testUtils.catchBugsInSentry((function(e){console.info("".concat("932"," Fix slider for pp - "),e);var l="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' fill='none' xmlns:v='https://vecta.io/nano'%3e%3cpath stroke='null' fill='%23cfcfcf' d='M35.5 0C15.895 0 0 15.851 0 35.398c0 11.856 5.858 22.345 14.866 28.766.233-.267.406-.967.555-1.562l.013-.053.044-.249c.896-3.747 1.096-7.341.661-11.659-.253-2.575-.643-4.117-1.016-5.46-.377-1.455-.701-2.712-.67-4.67.022-1.765.382-2.986.777-4.288a20.523 20.234 0 0 0 1.038-6.057c.193-5.637.777-7.039 2.458-8.673 1.673-1.628 2.181-2.306 2.181-3.5 0-.262-.075-.597-.164-.993-.317-1.407-.805-3.566 1.371-5.808 1.793-1.833 3.532-2.5 4.784-2.5.71 0 1.258.214 1.582.547.892.936.666 2.752-1.14 5.156-1.786 2.417-1.731 3.465-1.626 4.025s.655 1.313 1.7 2.128l.049.039c.788.641 1.686 1.372 2.272 2.413 1.109 1.982 1.757 3.881 2.64 6.475l.044.125.255.757c.803 2.33 2.951 3.15 6.789 3.15 3.81 0 7.854-2.487 7.854-4.408 0-.989-.213-1.527-.417-2.045-.189-.481-.373-.941-.373-1.75 0-1.636 2.445-6.361 6.13-6.361 1.877 0 2.858 1.365 1.948 3.253-.288.606-.675 1.297-1.065 1.995-.808 1.444-1.626 2.916-1.626 3.71 0 2.177 3.235.497 5.27-1.175 2.068-1.671 2.523-2.139 3.938-4.637.865-1.542 2.095-1.837 2.915-1.435.905.455 1.478 1.794.659 3.714-.637 1.474-2.356 3.347-4.182 5.333l-.044.052c-2.463 2.669-5.25 5.705-5.25 7.648 0 9.909 5.582 18.55 6.228 19.499.626.941.97 1.253 1.158 1.35A35.966 35.459 0 0 0 71 35.551v-.306C70.918 15.765 55.058 0 35.5 0zm11.544 67.126c-.311.672-1.214 1.313-2.463 1.853-3.017.663-6.173 1.022-9.421 1.022-.24 0-.477-.007-.71-.015h0l-.311-.009c-1.313-.332-2.301-.888-2.824-1.647-1.642-2.384-1.677-7.798-1.708-14.066l-.013-1.789c-.053-6.322-.095-11.769 2.476-13.724.998-.752 2.412-1 4.333-.731 7.291 1.006 7.93 5.014 8.491 8.56l.002.017.067.394.333 1.997.018.109c.666 3.857 2.012 11.67 2.012 15.765 0 1.035-.102 1.827-.288 2.262l.007.002zM21.899 52.5c.987-.079 1.62 6.731 1.748 11.896.089 3.594-.177 5.075-.608 5.604-.488-.228-.965-.475-1.433-.744-.315-.801-.555-2.061-.71-3.712-.444-5.184-.06-12.954 1.003-13.046v.002zm29.243.087c1.908-1.116 5.332 8.75 5.048 10.489a5.2 5.2 0 0 1-.315 1.214c-1.038 1.006-2.13 1.929-3.273 2.761-.364.074-.666.022-.843-.3-1.513-3.211-2.081-13.289-.617-14.166v.002z' fill-rule='evenodd'/%3e%3c/svg%3e",n={large:l,medium:l,small:l};function t(e){var l,n=null===(l=null==e?void 0:e.data)||void 0===l?void 0:l.galleryImages;return n&&(e.data.galleryImages=o(n)),e}function o(e){if(null==e?void 0:e.length)return e.map((function(e){if(e)return(null==e?void 0:e.large)||(e.large=l),(null==e?void 0:e.medium)||(e.medium=l),(null==e?void 0:e.small)||(e.small=l),e;e={large:l,medium:l,small:l}}))}window.testUtils.watchComponent("item",(function(){var e=window.BACKEND.components.item.galleryImages;(null==e?void 0:e.length)?window.BACKEND.components.item.galleryImages=o(e)||[]:window.BACKEND.components.item.galleryImages=[n]})),window.testUtils.loadInit((function(){window.m&&(window.m.request=window.testUtils.wrapperPromise({checkUrl:function(e){return e&&e.url&&~e.url.indexOf("/shop/rest/misc/product/mobile")},func:window.m.request,mutate:t}))}))}),e)},{})));;
+
+    window['64acf4bc65856d51348c24f7'](params);
+  })
+    ({
+      codeExperiment: "fix-product-slider",
+      codeVariant: "stable",
+      pageType: "ITEMS",
+      uiExperience: "DESKTOP",
+      currentExperimentCodes: currentCodesArray,
+      currentEnvironment: "production"
+    })
+  }
+  catch (e) {
+    console.error("fix-product-slider", e);
+  }

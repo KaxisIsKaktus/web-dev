@@ -1,0 +1,38 @@
+
+<div class="categories">
+<button class="cat" type="button" (click)="showAll()" >All</button>
+<button class="cat" type="button" (click)="filterByCategory('phones')">Phones</button>
+<button class="cat" type="button" (click)="filterByCategory('laptops')">Laptops</button>
+<button class="cat" type="button" (click)="filterByCategory('accessories')">Accessories</button>
+<button class="cat" type="button" (click)="filterByCategory('guitars')">Guitars</button>
+</div>
+
+<div *ngFor="let product of products">
+  <div *ngIf="!selectedCategory || product.category === selectedCategory">
+    <h3><a [title]="product.name + ' details'">{{product.name}}</a></h3>
+    <div class="slider">
+      <div class="wrapper">
+        <img [src]="product.image" alt="">
+        <img [src]="product.image1" alt="">
+        <img [src]="product.image2" alt="">
+        <img [src]="product.image3" alt="">
+      </div>
+    </div>
+    <p>Rating: <span *ngFor=" let _ of getRatingStars(product.rating)"><i class="fas fa-star"></i></span></p>
+    <a [href]="product.link">The link to the product</a>
+    <p *ngIf="product.description">{{product.description}}</p>
+    <div class="buttons">
+      <button type="button" (click)="share(product.link)">Share</button>
+      <button class="remove" type="button" (click)="removeProduct(product)">Remove</button>
+      <div class="heart-btn" (click)="changeLike(product)">
+        <div class="content">
+          <i class="fa fa-heart" [class.liked]="product.liked"></i>
+          <span class="like">Like</span>
+          <span class="number">{{product.like}}</span>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+</div>
