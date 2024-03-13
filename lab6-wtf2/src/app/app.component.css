@@ -1,0 +1,41 @@
+/* Apply a reset for padding and margin for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body with a nice font and some padding */
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Create a header area with a background color */
+.header {
+    background-color: #22267d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style the navigation links */
+.header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background color slightly on hover to give feedback */
+.header a:hover {
+    background-color: #2c329f;
+}
+
+/* Give some space for the content below the header */
+.content {
+    padding-top: 20px;
+}

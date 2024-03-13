@@ -1,0 +1,5 @@
+<a routerLink="../" class="router-link">Back</a>
+<div *ngFor="let img of images" class="photo-container">
+  <p>{{ img.title }}</p>
+  <img src="{{ img.thumbnailUrl }}" alt="Photo">
+</div>

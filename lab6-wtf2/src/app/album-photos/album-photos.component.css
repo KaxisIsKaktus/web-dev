@@ -1,0 +1,68 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for the body to add some padding and set the background color */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Styling the back link for better visibility */
+a.router-link {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the back link */
+a.router-link:hover {
+    background-color: #2980b9;
+}
+
+/* Styling for each image container */
+.photo-container {
+    margin-bottom: 20px;
+}
+
+/* Styling for the image titles */
+.photo-container p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Styling for the images */
+.photo-container img {
+    display: block;
+    max-width: 100%;
+    /* Makes image responsive */
+    height: auto;
+    border: 3px solid #ddd;
+    /* Adds a border around the image */
+    margin-bottom: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow */
+}
+
+/* Adding some space around each image container */
+.photo-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Adds some space at the bottom of the container */
+.photo-container:last-child {
+    margin-bottom: 0;
+}

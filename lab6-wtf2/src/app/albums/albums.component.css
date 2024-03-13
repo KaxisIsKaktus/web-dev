@@ -1,0 +1,48 @@
+/* Styles for the overall albums container */
+.albums-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for the heading */
+.albums-container h1 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styles for each album item */
+.album-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the album titles */
+.album-item p {
+    margin: 0;
+    color: #555;
+}
+
+/* Styles for album links */
+.album-item a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-right: 15px;
+}
+
+/* Specific styles for delete links */
+.delete-link {
+    color: #ff0d00;
+    cursor: pointer;
+}
+
+/* Hover effect for links */
+.album-item a:hover {
+    text-decoration: underline;
+}

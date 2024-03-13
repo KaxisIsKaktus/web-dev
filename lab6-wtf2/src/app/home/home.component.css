@@ -1,0 +1,26 @@
+/* This will apply styles to the entire body of the page, assuming that 'Wassup :)' is the only content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the body take the full height of the viewport */
+    margin: 0; /* Resets any default margin */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Example background color */
+  }
+  
+  /* This targets a <p> element directly, you may want to use a class or id instead if there are multiple <p> elements */
+  p {
+    font-size: 48px; /* This sets the size of the text */
+    color: #333; /* Example text color */
+  }
+
+  .centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 180px;
+    color: #333;
+  }
+  
