@@ -1,5 +1,7 @@
 <div class="albums-container">
     <h1>Albums</h1>
+    <input type="text" placeholder="Input the text" [(ngModel)]="newAlbum.title" id="title">
+    <button (click)="addAlbum()">Create</button>
     <div *ngFor="let album of albums" class="album-item">
       
       <a [routerLink]="['/albums', album.id]">{{ album.id }}</a>

@@ -1,58 +1,49 @@
 {
-  "hash": "5d798f7f",
-  "configHash": "0215224e",
+  "hash": "5b09a484",
+  "configHash": "f71b02eb",
   "lockfileHash": "1946d732",
-  "browserHash": "8a78c3d9",
+  "browserHash": "613b864e",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "23325957",
+      "fileHash": "eb920727",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "966f9e22",
+      "fileHash": "f58d87b2",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "c8bddee2",
+      "fileHash": "0147f504",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "c822bdf0",
+      "fileHash": "48b7f651",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "b84719ef",
-      "needsInterop": false
-    },
-    "tslib": {
-      "src": "../../../../../node_modules/tslib/tslib.es6.mjs",
-      "file": "tslib.js",
-      "fileHash": "2866387c",
+      "fileHash": "7def1272",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-M2VF6NIF": {
-      "file": "chunk-M2VF6NIF.js"
+    "chunk-T3JOYEAF": {
+      "file": "chunk-T3JOYEAF.js"
     },
-    "chunk-BA76C74X": {
-      "file": "chunk-BA76C74X.js"
+    "chunk-NCRJLOF7": {
+      "file": "chunk-NCRJLOF7.js"
     },
-    "chunk-E2F2CMEP": {
-      "file": "chunk-E2F2CMEP.js"
-    },
-    "chunk-QOHD3WUR": {
-      "file": "chunk-QOHD3WUR.js"
+    "chunk-BDK72RLS": {
+      "file": "chunk-BDK72RLS.js"
     }
   }
 }

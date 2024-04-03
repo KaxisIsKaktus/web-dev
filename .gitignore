@@ -1,5 +1,3 @@
 node_modules
-lab7/Lib/site-packages
-lab8/Lib/site-packages
-lab4/.angular
-lab5/.angular
+lab7/d_p_venv/Lib/site-packages
+lab8/shop_venv/Lib/site-packages
