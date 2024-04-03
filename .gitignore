@@ -1,3 +1,5 @@
 node_modules
-Lib/site-packages
-.angular
+lab7/Lib/site-packages
+lab8/Lib/site-packages
+lab4/.angular
+lab5/.angular
