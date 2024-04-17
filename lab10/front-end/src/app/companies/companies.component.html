@@ -1,0 +1,13 @@
+
+<div *ngFor="let item of data">
+    <div class="elem" (click)="fetchData(item.id)" >
+        <div class="name">
+            <a>{{item.name}}</a>
+            <p>{{item.description}}</p>
+        </div>
+        <div class="info"> 
+            <p>{{item.city}}, {{item.address}}</p>
+        </div>
+        
+    </div>
+</div>

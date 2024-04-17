@@ -1,0 +1,12 @@
+a {
+    font-size:x-large
+}
+
+.elem {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 300px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
