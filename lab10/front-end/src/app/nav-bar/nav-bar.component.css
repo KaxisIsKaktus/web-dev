@@ -1,3 +1,8 @@
 .spacer {
     flex: 1 1 auto;
 }
+
+.all{
+    background-color: #be0000;
+    color: aliceblue;
+}
